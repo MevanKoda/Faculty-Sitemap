@@ -9,6 +9,9 @@
     width:800px;
     height:600px;
     overflow: hidden;
+    background-color: gray;
+    box-shadow: 5px 5px 5px 5px gray;
+
 }
 
 .image-container img{
