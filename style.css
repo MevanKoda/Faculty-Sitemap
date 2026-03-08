@@ -1,16 +1,113 @@
+*{
+    margin: 0;
+}
+
+h1{
+    margin-top: 20px;
+    color: rgb(6, 6, 66);
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(7, 43, 94);
+    color: white;
+
+}
+.header h1{
+    color: white;
+}
+
+.info{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+   
+}
+
+a{
+    text-decoration: none;
+}
+.info a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.hero-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.hero-image-container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 30px ;
+}
+.wrapper h1{
+    font-size: 60px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 31, 31);
+}
+
+.button-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container button{
+    background-color: rgb(9, 85, 191);
+    border:none;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .container{
     display: flex;
     justify-content: center;
     align-items: top;
     height: 100vh;
+    margin-top: 20px;
 }
 
 .image-container{
     width:800px;
     height:600px;
     overflow: hidden;
-    background-color: white;
-    box-shadow: 5px 5px 5px 5px gray;
+    background-color: rgb(0, 23, 63);
+    padding: 10px;
+    border-radius: 20px;
 
 }
 
@@ -20,9 +117,13 @@
     object-fit:fill;
     object-position: center;
     display: block;
+    border-radius: 15px;
 }
 
 h1{
     text-align: center;
-    color: blue;
+    color: black;
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
