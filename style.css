@@ -1,7 +1,7 @@
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     height: 100vh;
 }
 
@@ -9,7 +9,7 @@
     width:800px;
     height:600px;
     overflow: hidden;
-    background-color: gray;
+    background-color: white;
     box-shadow: 5px 5px 5px 5px gray;
 
 }
